@@ -10,10 +10,10 @@ document.addEventListener("DOMContentLoaded", () => {
     ];
 
     // Colors
-    const colorFree = 'rgba(0, 255, 136, 0.8)';
-    const borderFree = '#00ff88';
-    const colorPaid = 'rgba(255, 119, 0, 0.8)';
-    const borderPaid = '#ff7700';
+    const colorFree = 'rgba(0, 229, 255, 0.8)';
+    const borderFree = '#00e5ff';
+    const colorPaid = 'rgba(37, 99, 235, 0.8)';
+    const borderPaid = '#2563EB';
 
     const ctx = document.getElementById('eloChart').getContext('2d');
     
@@ -71,8 +71,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const lastSyncTime = document.getElementById('lastSyncTime');
 
     const terminalSteps = [
-        { text: "> Initializing arena-scraper_v2.1...", type: "sys", delay: 300 },
-        { text: "> Connecting to wss://arena.ai/api/live...", type: "sys", delay: 600 },
+        { text: "> Initializing linacre-scraper_v3.0...", type: "sys", delay: 300 },
+        { text: "> Connecting to wss://llm-data-aggregation/live...", type: "sys", delay: 600 },
         { text: "[OK] Connection established. Handshake verified.", type: "norm", delay: 400 },
         { text: "> Pulling July 14, 2026 rolling 24h averages...", type: "sys", delay: 800 },
         { text: "FETCHING: Claude Fable 5... [1509]", type: "norm", delay: 200 },
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { text: "FETCHING: GLM-5.2 Max... [1469]", type: "norm", delay: 200 },
         { text: "FETCHING: Mimo V2.5 Pro... [1466]", type: "norm", delay: 200 },
         { text: "FETCHING: DeepSeek V4 Pro... [1457]", type: "norm", delay: 200 },
-        { text: "> Connecting to llm-stats.com/api/v4/validation...", type: "sys", delay: 700 },
+        { text: "> Connecting to global-llm-index.com/api/v1/validation...", type: "sys", delay: 700 },
         { text: "[OK] Cross-referencing complete. Data integrity: 99.98%", type: "norm", delay: 500 },
         { text: "> Updating DOM elements and Chart.js canvas...", type: "sys", delay: 400 },
         { text: "[SUCCESS] Sync complete.", type: "norm", delay: 300 }

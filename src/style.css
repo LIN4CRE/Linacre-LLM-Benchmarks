@@ -2,11 +2,11 @@
     --bg-dark: #0a0a12;
     --glass-bg: rgba(16, 18, 27, 0.6);
     --glass-border: rgba(255, 255, 255, 0.08);
-    --neon-green: #00ff88;
-    --neon-orange: #ff7700;
-    --neon-pink: #ff007f;
-    --neon-purple: #7000ff;
-    --neon-blue: #00e5ff;
+    --neon-green: #00e5ff;
+    --neon-orange: #2563EB;
+    --neon-pink: #2563EB;
+    --neon-purple: #00e5ff;
+    --neon-blue: #1D4ED8;
     --text-main: #f0f0f5;
     --text-muted: #8a8d9b;
     --font-ui: 'Inter', sans-serif;

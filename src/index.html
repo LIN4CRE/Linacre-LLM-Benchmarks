@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tokyo LLM Benchmarks 2026</title>
+    <title>Linacre LLM Benchmarks</title>
     <link rel="stylesheet" href="style.css">
     <!-- Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -19,7 +19,7 @@
     <div class="glass-container">
         <header>
             <div class="header-left">
-                <h1>LLM Arena <span>Tokyo Edition</span></h1>
+                <h1>LLM Benchmarks <span>Global Dashboard</span></h1>
                 <p>Live 24h Rolling Averages • July 14, 2026</p>
             </div>
             <div class="header-right">
@@ -35,7 +35,7 @@
                 <span class="dot red"></span>
                 <span class="dot yellow"></span>
                 <span class="dot green"></span>
-                <span class="title">arena-scraper_v2.1.sh</span>
+                <span class="title">linacre-scraper_v3.0.sh</span>
             </div>
             <div class="terminal-body" id="terminalOutput">
                 <!-- Terminal logs injected here via JS -->
@@ -44,7 +44,7 @@
 
         <main class="dashboard">
             <div class="chart-wrapper glass-panel">
-                <h2>Arena Elo Leaderboard</h2>
+                <h2>Global Elo Leaderboard</h2>
                 <div class="legend">
                     <span class="legend-item"><span class="color-box free"></span> Free / Open-Weight</span>
                     <span class="legend-item"><span class="color-box paid"></span> Paid / Proprietary</span>
@@ -68,7 +68,7 @@
                 <div class="stat-card glass-panel">
                     <h3>Last Sync</h3>
                     <div class="stat-value" id="lastSyncTime">Just now</div>
-                    <p>Data from Arena.ai & LLM-Stats</p>
+                    <p>Data aggregated from global sources</p>
                 </div>
             </div>
         </main>

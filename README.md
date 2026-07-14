@@ -1,14 +1,14 @@
 <div align="center">
-  <img src="assets/banner.png" alt="Tokyo LLM Benchmarks Banner" width="100%" />
+  <img src="assets/banner.png" alt="Linacre LLM Benchmarks Banner" width="100%" />
 
-  # 🏙️ Tokyo LLM Benchmarks
+  # 📊 Linacre LLM Benchmarks
 
   **Real-time interactive dashboard visualizing the convergence of Open-Weight and Proprietary Large Language Models.**<br>
   *Built by [LIN4CRE](https://github.com/LIN4CRE) • Data updated as of July 14, 2026*
 
-  [![Deploy Status](https://img.shields.io/github/actions/workflow/status/LIN4CRE/LLM-Tokyo-Benchmarks/deploy.yml?branch=main&label=Deployment&style=for-the-badge&color=2563EB)](https://github.com/LIN4CRE/LLM-Tokyo-Benchmarks/actions)
+  [![Deploy Status](https://img.shields.io/github/actions/workflow/status/LIN4CRE/Linacre-LLM-Benchmarks/deploy.yml?branch=main&label=Deployment&style=for-the-badge&color=2563EB)](https://github.com/LIN4CRE/Linacre-LLM-Benchmarks/actions)
   [![License: MIT](https://img.shields.io/badge/License-MIT-00ff88.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-  [![Live Demo](https://img.shields.io/badge/View-Live_Demo-ff007f?style=for-the-badge)](https://LIN4CRE.github.io/LLM-Tokyo-Benchmarks/)
+  [![Live Demo](https://img.shields.io/badge/View-Live_Demo-ff007f?style=for-the-badge)](https://LIN4CRE.github.io/Linacre-LLM-Benchmarks/)
 </div>
 
 ---
@@ -17,13 +17,13 @@
 
 The open-weights landscape of **July 14, 2026**, has nearly vaporized the gap between self-hosted "free" models and proprietary "paid" giants. With powerhouse architectures like **GLM-5.2 Max** and **DeepSeek V4 Pro** trading blows directly with **GPT-5.5** and **Claude Fable 5**, keeping track of the leaderboard requires constant vigilance.
 
-This repository hosts a premium interactive dashboard utilizing a **glassmorphic Tokyo-night theme**. It isolates **Free** models in glowing neon green and **Paid** models in high-contrast neon orange.
+This repository hosts a premium interactive dashboard utilizing a **glassmorphic Linacre blue theme**. It isolates **Free** models in cyan and electric blue.
 
 ## ✨ Features
 
 - **Pristine Dark Glass UI:** Highly polished CSS4 glassmorphism with dynamic ambient background blobs.
 - **Interactive Data Visualization:** Powered by Chart.js for smooth, animated 24-hour rolling average Elo tracking.
-- **Simulated Terminal Sync:** A custom "Scrape & Sync" button that mimics connecting to `arena.ai` and `llm-stats.com` via a mock terminal output stream.
+- **Simulated Terminal Sync:** A custom "Scrape & Sync" button that mimics connecting to multiple accurate LLM data sources via a mock terminal output stream.
 - **Categorized AI Models:** Instantly visually parse proprietary behemoths (Claude Fable 5, Gemini 3.1 Pro) vs open-weight heroes (GLM-5.2 Max, Mimo V2.5 Pro).
 
 ## 🚀 Getting Started
@@ -32,8 +32,8 @@ This repository hosts a premium interactive dashboard utilizing a **glassmorphic
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/LIN4CRE/LLM-Tokyo-Benchmarks.git
-   cd LLM-Tokyo-Benchmarks
+   git clone https://github.com/LIN4CRE/Linacre-LLM-Benchmarks.git
+   cd Linacre-LLM-Benchmarks
    ```
 2. Open `src/index.html` in your favorite browser. No build steps required!
 
