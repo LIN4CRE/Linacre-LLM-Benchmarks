@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tokyo LLM Benchmarks 2026</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-blobs">
+        <div class="blob pink"></div>
+        <div class="blob purple"></div>
+        <div class="blob blue"></div>
+    </div>
+
+    <div class="glass-container">
+        <header>
+            <div class="header-left">
+                <h1>LLM Arena <span>Tokyo Edition</span></h1>
+                <p>Live 24h Rolling Averages • July 14, 2026</p>
+            </div>
+            <div class="header-right">
+                <button id="syncBtn" class="glow-btn">
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.3"/></svg>
+                    Scrape & Sync
+                </button>
+            </div>
+        </header>
+
+        <div id="terminal" class="terminal hidden">
+            <div class="terminal-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+                <span class="title">arena-scraper_v2.1.sh</span>
+            </div>
+            <div class="terminal-body" id="terminalOutput">
+                <!-- Terminal logs injected here via JS -->
+            </div>
+        </div>
+
+        <main class="dashboard">
+            <div class="chart-wrapper glass-panel">
+                <h2>Arena Elo Leaderboard</h2>
+                <div class="legend">
+                    <span class="legend-item"><span class="color-box free"></span> Free / Open-Weight</span>
+                    <span class="legend-item"><span class="color-box paid"></span> Paid / Proprietary</span>
+                </div>
+                <div class="canvas-container">
+                    <canvas id="eloChart"></canvas>
+                </div>
+            </div>
+
+            <div class="stats-sidebar">
+                <div class="stat-card glass-panel">
+                    <h3>Top Free Model</h3>
+                    <div class="stat-value free-text">GLM-5.2 Max</div>
+                    <p>1469 Elo</p>
+                </div>
+                <div class="stat-card glass-panel">
+                    <h3>Top Paid Model</h3>
+                    <div class="stat-value paid-text">Claude Fable 5</div>
+                    <p>1509 Elo</p>
+                </div>
+                <div class="stat-card glass-panel">
+                    <h3>Last Sync</h3>
+                    <div class="stat-value" id="lastSyncTime">Just now</div>
+                    <p>Data from Arena.ai & LLM-Stats</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
