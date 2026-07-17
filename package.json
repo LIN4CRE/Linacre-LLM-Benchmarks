@@ -1,7 +1,7 @@
 {
   "name": "linacre-llm-hub",
   "version": "4.0.0",
-  "description": "<div align=\"center\">   <img src=\"assets/banner.png\" alt=\"Linacre LLM Benchmarks Banner\" width=\"100%\" />",
+  "description": "Linacre LLM Hub and Hardware Matcher",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
     "build-win": "electron-builder --win"
   },
   "keywords": [],
-  "author": "",
+  "author": "David Linacre",
   "license": "ISC",
   "devDependencies": {
     "@capacitor/cli": "^7.6.8",
@@ -19,5 +19,9 @@
   "dependencies": {
     "@capacitor/android": "^8.4.2",
     "@capacitor/core": "^8.4.2"
+  },
+  "build": {
+    "appId": "site.linacre.llmhub",
+    "productName": "Linacre LLM Hub"
   }
 }
